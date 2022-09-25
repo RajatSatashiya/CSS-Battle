@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="circle"></div>
+    <div class="circle">
+        <div class="dash">
+        </div>
+    </div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+</div>
+<style>
+    body {
+        margin: 0px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-top: 30.3%;
+        aspect-ratio: 1;
+        background: #191919;
+    }
+
+    .circle:first-child {
+        outline: solid 20px #714B67;
+        background: #191919;
+        margin-left: 20px;
+    }
+
+    .circle {
+        filter: blur(0.4px);
+        width: 40px;
+        height: 40px;
+        border: 10px;
+        margin: 21px;
+        outline: solid 20px #8F8F8F;
+        border-radius: 50%;
+        border-color: white;
+        background: #191919;
+    }
+
+    .circle:nth-child(2) {
+        position: relative;
+    }
+
+    .dash {
+        width: 20px;
+        height: 65px;
+        color: pink;
+        background: #8F8F8F;
+        border-radius: 50px;
+        position: absolute;
+        top: -40px;
+        right: -20px;
+    }
+</style>

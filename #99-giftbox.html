@@ -1,0 +1,54 @@
+<div class="box">
+    <div class="circle"></div>
+    <div class="circle2"></div>
+    <div class="line-1"></div>
+    <div class="line-2"></div>
+</div>
+<style>
+    body {
+        background: #AC474B;
+        margin: 0;
+        padding: 0;
+    }
+
+    .box {
+        width: 140px;
+        height: 140px;
+        background: #FFFFFF;
+        margin: 110px 0px 0px 130px;
+        position: relative;
+    }
+
+    .line-1 {
+        width: 100%;
+        height: 20px;
+        background: #AC474B;
+        position: absolute;
+        top: calc(70px - 10px);
+    }
+
+    .line-2 {
+        width: 20px;
+        height: 100%;
+        background: #AC474B;
+        position: absolute;
+        left: calc(70px - 10px);
+    }
+
+    .circle,
+    .circle2 {
+        width: 20px;
+        aspect-ratio: 1;
+        border: 10px solid white;
+        border-radius: 50% 50% 0% 50%;
+        position: absolute;
+        background: #AC474B;
+        top: -60px;
+        left: 35px;
+    }
+
+    .circle2 {
+        left: 65px;
+        border-radius: 50% 50% 50% 0%;
+    }
+</style>
