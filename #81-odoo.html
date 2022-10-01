@@ -1,18 +1,17 @@
-<div class="container">
-    <div class="circle"></div>
-    <div class="circle">
-        <div class="dash">
-        </div>
-    </div>
-    <div class="circle"></div>
-    <div class="circle"></div>
-</div>
+<p>
+    <d c></d>
+    <d c>
+        <d t></d>
+    </d>
+    <d c></d>
+    <d c></d>
+</p>
 <style>
     body {
-        margin: 0px;
+        margin: 0;
     }
 
-    .container {
+    p {
         display: flex;
         justify-content: center;
         width: 100%;
@@ -21,32 +20,23 @@
         background: #191919;
     }
 
-    .circle:first-child {
+    [c]:first-child {
         outline: solid 20px #714B67;
-        background: #191919;
-        margin-left: 20px;
+        margin-left: 20;
     }
 
-    .circle {
+    [c] {
         filter: blur(0.4px);
         width: 40px;
         height: 40px;
-        border: 10px;
         margin: 21px;
         outline: solid 20px #8F8F8F;
         border-radius: 50%;
-        border-color: white;
-        background: #191919;
     }
 
-    .circle:nth-child(2) {
-        position: relative;
-    }
-
-    .dash {
+    [t] {
         width: 20px;
         height: 65px;
-        color: pink;
         background: #8F8F8F;
         border-radius: 50px;
         position: absolute;
